@@ -1,5 +1,5 @@
 --
--- PostgreSQL database dump
+--  PostgreSQL database dump
 --
 
 -- Dumped from database version 10.3

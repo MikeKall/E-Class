@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assign Courses</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assign.css">
+</head>
+<body>
+<ul>
+  <form action="SecretaryServletLoginMain" method="post">
+		<input type="hidden" name="username" id="username" value="<%=username %>">
+		<input type="hidden" name="passwd" id="password" value="<%=password %>">
+		<li><button><a>Total Courses</button></a></li>
+		</form>
+		<form action="CoursesProfessors" method="post">
+		<input type="hidden" name="username" value="<%=username %>">
+		<input type="hidden" name="passwd" value="<%=password %>">
+		<li><button><a>Professors/Courses</a></button></li>
+		</form>
+		<form action="AssignProf.jsp" method="post">
+		<input type="hidden" name="username" value="<%=username %>">
+		<input type="hidden" name="passwd" value="<%=password %>">
+		<li><button><a>Assign Course to Professor</a></button></li>
+		</form>
+  		<li class="name"><button><a href="index.html">Log out</a></button></li>
+  		<li class="name"><a><%=name+" "+surname%></a></li>
+	</ul>
+  <li class="name"><button><a>Log out</a></button></li>
+</ul>
+<form>
+	<table>
+	<tr>
+		<th align="left">
+			<label>Name:</label>
+		</th>
+		<th align="left">
+			<label>Course:</label>
+		</th>
+	</tr>
+	<tr>
+		<th><input type="text" placeholder="Professor (Name Surname)" name="Prof" id="Prof"></th>
+		<th><input type="text" placeholder="Course (CS.XXX)" name="Course" id="Course"></th>
+	</tr>
+	<tr>
+		<th colspan="2">
+			<button id = "Search" type = "Submit" = "Search" onclick="value_checker()">Submit</button>
+		</th>
+	</tr>
+	</table>
+</form>
+
+</body>
+</html>

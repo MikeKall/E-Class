@@ -1,0 +1,74 @@
+html{
+    background-color:  #c4d6b0;
+}
+
+body{
+    margin: 0px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px grey;
+}
+
+table{
+    width: 100%;
+    margin-top: 50px;
+}
+
+#Search{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    cursor: pointer;
+    width: 20%;
+    box-shadow: 2px 2px 4px grey;
+}
+#Search:hover{
+    background-color: #333;
+    color: white;
+}
+
+button{
+    border-style: none;
+    background-color: #333;
+}
+
+button:hover {
+    background-color: #111;
+}
+
+
+form {
+    margin: auto;
+    width: 50%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.name{
+	float: right;
+}
